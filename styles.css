@@ -22,19 +22,23 @@ header .buttons {
 
 header .btn {
     display: inline-block;
-    padding: 0.5em 1em;
+    padding: 0.8em 1.5em;
     margin: 0.5em;
     background-color: #ffffff;
     color: #4CAF50;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
     border: 2px solid #4CAF50;
     font-weight: bold;
+    font-size: 1em;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
 }
 
 header .btn:hover {
     background-color: #45a049;
     color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 section {
@@ -137,4 +141,26 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+/* زر في أسفل الصفحة */
+footer .btn {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    margin: 0.5em;
+    background-color: #ffffff;
+    color: #4CAF50;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #4CAF50;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+footer .btn:hover {
+    background-color: #45a049;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
